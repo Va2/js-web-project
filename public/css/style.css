@@ -11853,8 +11853,8 @@ a.text-dark:hover, a.text-dark:focus {
   scroll-behavior: smooth; }
 
 @font-face {
-  font-family: "Poppins";
-  src: url("../fonts/Poppins-Regular.ttf"); }
+  font-family: "poppins-extra-bold";
+  src: url("../fonts/Poppins-ExtraBold.ttf"); }
 @font-face {
   font-family: "source-sans-pro";
   src: url("../fonts/SourceSansPro-Regular.ttf"); }
@@ -11887,7 +11887,7 @@ header div.row div.col-lg-2 .nav-connexion {
 #jumbotron {
   background: #f3f3f3; }
   #jumbotron h1, #jumbotron h2 {
-    font-family: "poppins", sans-serif; }
+    font-family: "poppins-extra-bold", sans-serif; }
   #jumbotron h2 {
     font-size: 50px;
     color: #bd584e;
@@ -11896,5 +11896,17 @@ header div.row div.col-lg-2 .nav-connexion {
     font-size: 100px;
     color: #161616;
     font-weight: 700; }
+
+#cards h5 {
+  margin-top: 23%; }
+#cards hr {
+  margin: 0 auto;
+  background: #fff; }
+#cards hr#service-1 {
+  width: 107px !important; }
+#cards hr#service-2 {
+  width: 88px !important; }
+#cards hr#service-3 {
+  width: 67px !important; }
 
 /*# sourceMappingURL=style.css.map */

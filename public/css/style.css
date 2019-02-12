@@ -11853,13 +11853,27 @@ a.text-dark:hover, a.text-dark:focus {
   scroll-behavior: smooth; }
 
 @font-face {
-  font-family: "poppins";
+  font-family: "Poppins";
   src: url("../fonts/Poppins-Regular.ttf"); }
+@font-face {
+  font-family: "source-sans-pro";
+  src: url("../fonts/SourceSansPro-Regular.ttf"); }
+.btn-primary {
+  text-transform: uppercase;
+  border-radius: 30px;
+  font-size: 13px;
+  line-height: 17px;
+  font-weight: 700;
+  font-family: "source-sans-pro", sans-serif;
+  letter-spacing: 1px;
+  padding: 19px 40px; }
+
 header .logo img {
   width: 232px;
   height: 44px; }
 header div.row div.col-lg-8.offset-lg-2 nav a {
   text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
   font-size: 13px;
   font-weight: 400;
   color: #878787; }
@@ -11869,5 +11883,18 @@ header div.row div.col-lg-2 .nav-connexion {
   display: flex; }
   header div.row div.col-lg-2 .nav-connexion .btn {
     border: 1px solid #000; }
+
+#jumbotron {
+  background: #f3f3f3; }
+  #jumbotron h1, #jumbotron h2 {
+    font-family: "poppins", sans-serif; }
+  #jumbotron h2 {
+    font-size: 50px;
+    color: #bd584e;
+    font-weight: 300; }
+  #jumbotron h1 {
+    font-size: 100px;
+    color: #161616;
+    font-weight: 700; }
 
 /*# sourceMappingURL=style.css.map */

@@ -4237,8 +4237,8 @@ readers do not read off random characters that represent icons */
   font-style: normal;
   font-weight: 900;
   font-display: auto;
-  src: url("../webfonts/fa-solid-900.eot");
-  src: url("../webfonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-solid-900.woff2") format("woff2"), url("../webfonts/fa-solid-900.woff") format("woff"), url("../webfonts/fa-solid-900.ttf") format("truetype"), url("../webfonts/fa-solid-900.svg#fontawesome") format("svg"); }
+  src: url("../fonts/webfonts/fa-solid-900.eot");
+  src: url("../fonts/webfonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("../fonts/webfonts/fa-solid-900.woff2") format("woff2"), url("../fonts/webfonts/fa-solid-900.woff") format("woff"), url("../fonts/webfonts/fa-solid-900.ttf") format("truetype"), url("../fonts/webfonts/fa-solid-900.svg#fontawesome") format("svg"); }
 .fa,
 .fas {
   font-family: 'Font Awesome 5 Free';
@@ -4249,8 +4249,8 @@ readers do not read off random characters that represent icons */
   font-style: normal;
   font-weight: normal;
   font-display: auto;
-  src: url("../webfonts/fa-brands-400.eot");
-  src: url("../webfonts/fa-brands-400.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-brands-400.woff2") format("woff2"), url("../webfonts/fa-brands-400.woff") format("woff"), url("../webfonts/fa-brands-400.ttf") format("truetype"), url("../webfonts/fa-brands-400.svg#fontawesome") format("svg"); }
+  src: url("../fonts/webfonts/fa-brands-400.eot");
+  src: url("../fonts/webfonts/fa-brands-400.eot?#iefix") format("embedded-opentype"), url("../fonts/webfonts/fa-brands-400.woff2") format("woff2"), url("../fonts/webfonts/fa-brands-400.woff") format("woff"), url("../fonts/webfonts/fa-brands-400.ttf") format("truetype"), url("../fonts/webfonts/fa-brands-400.svg#fontawesome") format("svg"); }
 .fab {
   font-family: 'Font Awesome 5 Brands'; }
 
@@ -11952,5 +11952,81 @@ header div.row div.col-lg-2 .nav-connexion {
   #learn .container h2 {
     font-size: 40px;
     font-weight: 600; }
+
+#products-slider {
+  /* The colour of the indicators */ }
+  #products-slider h3 {
+    font-size: 23px;
+    font-weight: 700; }
+  #products-slider .card {
+    border: none; }
+    #products-slider .card div.col-4 {
+      margin-top: 13px; }
+      #products-slider .card div.col-4 .sale {
+        width: 48px;
+        height: 48px;
+        padding: 15px 8px;
+        border-radius: 50%;
+        background: #bd584e;
+        color: #fff;
+        font-size: 13px;
+        font-weight: 600; }
+    #products-slider .card a {
+      text-decoration: none;
+      color: #191919;
+      font-family: "poppins-extra-bold", sans-serif; }
+      #products-slider .card a h5 {
+        font-size: 17px; }
+    #products-slider .card p {
+      color: #bd584e;
+      font-family: "poppins-extra-bold", sans-serif;
+      font-size: 15px;
+      font-weight: 800; }
+      #products-slider .card p span {
+        color: #cacaca;
+        margin-right: 5px;
+        text-decoration: line-through; }
+  #products-slider .cards-slider .carousel-indicators {
+    left: 0;
+    top: auto;
+    bottom: -40px; }
+  #products-slider .cards-slider .carousel-indicators li {
+    display: block;
+    background: #a3a3a3;
+    border-radius: 50%;
+    width: 19px;
+    height: 0; }
+  #products-slider .cards-slider .carousel-indicators .active {
+    background: #707070; }
+
+#services-cards .card {
+  padding: 85px 70px;
+  border: none;
+  background: #F3F3F3; }
+  #services-cards .card .card-body i {
+    color: #383838; }
+  #services-cards .card .card-body h5 {
+    color: #383838;
+    font-family: "poppins-extra-bold", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0; }
+  #services-cards .card .card-body p {
+    color: #9b9b9b;
+    font-family: "source-sans-pro", sans-serif;
+    line-height: 1.7; }
+  #services-cards .card .card-body button {
+    border-radius: 4px;
+    background: #303030;
+    border-color: #303030; }
+#services-cards .bg-primary {
+  background: #bd584e; }
+  #services-cards .bg-primary button {
+    background: #fff !important;
+    border-color: #fff !important;
+    color: #2d2d2d !important; }
+  #services-cards .bg-primary button:hover {
+    background: #eaeaea !important;
+    border-color: #eaeaea !important; }
 
 /*# sourceMappingURL=style.css.map */

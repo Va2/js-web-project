@@ -11941,4 +11941,16 @@ header div.row div.col-lg-2 .nav-connexion {
       margin-right: 5px;
       text-decoration: line-through; }
 
+#learn {
+  background: url("../../../public/images/cta-bg.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 650px;
+  padding-top: 19%; }
+  #learn .container h2 {
+    font-size: 40px;
+    font-weight: 600; }
+
 /*# sourceMappingURL=style.css.map */

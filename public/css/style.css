@@ -11953,51 +11953,43 @@ header div.row div.col-lg-2 .nav-connexion {
     font-size: 40px;
     font-weight: 600; }
 
-#products-slider {
-  /* The colour of the indicators */ }
-  #products-slider h3 {
-    font-size: 23px;
-    font-weight: 700; }
-  #products-slider .card {
-    border: none; }
-    #products-slider .card div.col-4 {
-      margin-top: 13px; }
-      #products-slider .card div.col-4 .sale {
-        width: 48px;
-        height: 48px;
-        padding: 15px 8px;
-        border-radius: 50%;
-        background: #bd584e;
-        color: #fff;
-        font-size: 13px;
-        font-weight: 600; }
-    #products-slider .card a {
-      text-decoration: none;
-      color: #191919;
-      font-family: "poppins-extra-bold", sans-serif; }
-      #products-slider .card a h5 {
-        font-size: 17px; }
-    #products-slider .card p {
-      color: #bd584e;
-      font-family: "poppins-extra-bold", sans-serif;
-      font-size: 15px;
-      font-weight: 800; }
-      #products-slider .card p span {
-        color: #cacaca;
-        margin-right: 5px;
-        text-decoration: line-through; }
-  #products-slider .cards-slider .carousel-indicators {
-    left: 0;
-    top: auto;
-    bottom: -40px; }
-  #products-slider .cards-slider .carousel-indicators li {
-    display: block;
-    background: #a3a3a3;
-    border-radius: 50%;
-    width: 19px;
-    height: 0; }
-  #products-slider .cards-slider .carousel-indicators .active {
-    background: #707070; }
+#products-slider h3 {
+  font-size: 23px;
+  font-weight: 700; }
+#products-slider .card {
+  border: none; }
+  #products-slider .card div.col-4 {
+    margin-top: 13px; }
+    #products-slider .card div.col-4 .sale {
+      width: 48px;
+      height: 48px;
+      padding: 15px 8px;
+      border-radius: 50%;
+      background: #bd584e;
+      color: #fff;
+      font-size: 13px;
+      font-weight: 600; }
+  #products-slider .card a {
+    text-decoration: none;
+    color: #191919;
+    font-family: "poppins-extra-bold", sans-serif; }
+    #products-slider .card a h5 {
+      font-size: 17px; }
+  #products-slider .card p {
+    color: #bd584e;
+    font-family: "poppins-extra-bold", sans-serif;
+    font-size: 15px;
+    font-weight: 800; }
+    #products-slider .card p span {
+      color: #cacaca;
+      margin-right: 5px;
+      text-decoration: line-through; }
+#products-slider .carousel-indicators li {
+  width: 3px;
+  height: 3px;
+  border-radius: 50%; }
+#products-slider .carousel-indicators .active {
+  background: #8a8a8a; }
 
 #services-cards .card {
   padding: 85px 70px;
@@ -12028,5 +12020,54 @@ header div.row div.col-lg-2 .nav-connexion {
   #services-cards .bg-primary button:hover {
     background: #eaeaea !important;
     border-color: #eaeaea !important; }
+
+footer {
+  background: #212121; }
+  footer .info h3 {
+    font-family: "poppins-extra-bold", sans-serif;
+    font-size: 13px;
+    letter-spacing: 1.5px;
+    color: #fff; }
+  footer .info p {
+    font-family: "source-sans-pro", sans-serif;
+    font-size: 15px;
+    color: #9b9b9b;
+    line-height: 1.7; }
+  footer .info ul li {
+    list-style-image: url("../../../public/images/icons/next.png");
+    border-bottom: 1px solid #9b9b9b;
+    padding: 15px 0; }
+  footer .info ul a {
+    color: #969696;
+    text-decoration: none !important;
+    font-size: 14px;
+    line-height: 20px; }
+  footer .info ul a:hover {
+    color: #fff; }
+  footer .info .btn {
+    font-size: 11px;
+    text-transform: uppercase;
+    background: none;
+    color: #969696;
+    border-color: #969696;
+    border-radius: 0;
+    font-weight: 600;
+    margin-right: 5px; }
+  footer .info .btn:hover {
+    background: none;
+    border-color: #969696;
+    color: #fff; }
+  footer .info .col-lg-4:nth-child(2) {
+    border-left: 1px solid #9b9b9b;
+    border-right: 1px solid #9b9b9b; }
+
+#copyright {
+  background: #0a0a0a; }
+  #copyright p {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #838383;
+    font-family: "source-sans-pro", sans-serif; }
 
 /*# sourceMappingURL=style.css.map */

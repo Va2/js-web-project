@@ -11,7 +11,6 @@ let scrollFct = () => {
         navbar.classList.add('fixed-top');
         navbar.classList.add('py-4');
         navbar.classList.add('shadow-sm');
-        navbar.style.backgroundColor = '#fff';
         navIcon.classList.remove('d-none');
     } else {
         navbar.classList.remove('fixed-top');

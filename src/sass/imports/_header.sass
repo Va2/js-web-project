@@ -1,12 +1,20 @@
 header
     .logo
-        img
-            width: 232px
-            height: 44px
+        h1
+            font-family: $font-main
+            font-size: 30px
+        // img
+        //     width: 232px
+        //     height: 44px
 
-    div.row
-        div.col-lg-8.offset-lg-2
-            nav
+    // NAV LINKS
+    // div.row
+    nav
+        a.navbar-brand
+            font-family: $font-main
+        
+        .collapse
+            ul.nav
                 a
                     text-transform: uppercase
                     font-family: 'Poppins', sans-serif
@@ -16,9 +24,6 @@ header
                 .active
                     color: #333333
 
-        div.col-lg-2
-            .nav-connexion
-                display: flex
-
+            form
                 .btn
                     border: 1px solid #000

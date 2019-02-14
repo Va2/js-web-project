@@ -11868,21 +11868,21 @@ a.text-dark:hover, a.text-dark:focus {
   letter-spacing: 1px;
   padding: 19px 40px; }
 
-header .logo img {
-  width: 232px;
-  height: 44px; }
-header div.row div.col-lg-8.offset-lg-2 nav a {
+header .logo h1 {
+  font-family: "poppins-extra-bold", sans-serif;
+  font-size: 30px; }
+header nav a.navbar-brand {
+  font-family: "poppins-extra-bold", sans-serif; }
+header nav .collapse ul.nav a {
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
   font-size: 13px;
   font-weight: 400;
   color: #878787; }
-header div.row div.col-lg-8.offset-lg-2 nav .active {
+header nav .collapse ul.nav .active {
   color: #333333; }
-header div.row div.col-lg-2 .nav-connexion {
-  display: flex; }
-  header div.row div.col-lg-2 .nav-connexion .btn {
-    border: 1px solid #000; }
+header nav .collapse form .btn {
+  border: 1px solid #000; }
 
 #jumbotron {
   background: #f3f3f3; }
@@ -11948,7 +11948,8 @@ header div.row div.col-lg-2 .nav-connexion {
   -o-background-size: cover;
   background-size: cover;
   height: 650px;
-  padding-top: 19%; }
+  display: flex;
+  align-items: center; }
   #learn .container h2 {
     font-size: 40px;
     font-weight: 600; }

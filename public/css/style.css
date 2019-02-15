@@ -11931,7 +11931,7 @@ header nav {
     transition: 0.5s; }
     #products .card .buy-btns .btn {
       width: 100%;
-      border: none !important;
+      border: none;
       border-radius: 0;
       color: #fff;
       height: 58px;
@@ -11990,7 +11990,30 @@ header nav {
   font-size: 23px;
   font-weight: 700; }
 #products-slider .card {
-  border: none; }
+  border: none;
+  background: #fff; }
+  #products-slider .card .card-body {
+    z-index: 1;
+    background: #fff; }
+  #products-slider .card .buy-btns {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -66px;
+    transition: 0.5s; }
+    #products-slider .card .buy-btns .btn {
+      width: 100%;
+      border: none;
+      border-radius: 0;
+      color: #fff;
+      height: 58px;
+      font-family: "source-sans-pro", sans-serif;
+      font-size: 13px;
+      font-weight: 100; }
+    #products-slider .card .buy-btns .btn-details {
+      background: #050302; }
+    #products-slider .card .buy-btns .btn-cart {
+      background: rgba(187, 89, 81, 0.8); }
   #products-slider .card div.col-4 {
     margin-top: 13px; }
     #products-slider .card div.col-4 .sale {
@@ -12017,6 +12040,10 @@ header nav {
       color: #cacaca;
       margin-right: 5px;
       text-decoration: line-through; }
+#products-slider .card:hover .buy-btns {
+  bottom: 110px; }
+  #products-slider .card:hover .buy-btns .card:hover img {
+    transform: scale(1.1); }
 #products-slider .carousel-indicators {
   z-index: 1; }
   #products-slider .carousel-indicators li {

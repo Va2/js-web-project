@@ -48,11 +48,96 @@
                 <form class="form-inline my-2 my-lg-0">
                     <button type="button" class="btn btn-light p-3 mx-1"></button>
                     <button type="button" class="btn btn-dark p-3 mx-1"></button>
-                    <button type="button" class="btn btn-secondary ml-5">Connexion</button>
+                    <button type="button" class="btn btn-secondary ml-5" id="connexionBtn">Connexion</button>
                 </form>
             </div>
         </nav>
     </header>
+
+    <!-- MODAL -->
+    <div id="connexionModal" class="connexion-modal">
+        <!-- Modal content -->
+        <div class="modal-content p-5">
+            <!-- Close BTN -->
+            <span class="close">&times;</span>
+
+            <!-- LOGIN & SIGN UP BTNS -->
+            <div class="btn-group mt-5" role="group">
+                <button type="button" id="loginBtn" class="btn btn-primary active">Login</button>
+                <button type="button" id="signUpBtn" class="btn btn-primary">Sign Up</button>
+            </div>
+
+            <!-- LOGIN FORM -->
+            <form id="login">
+                <!-- EMAIL INPUT -->
+                <div class="input-group my-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="basic-addon1">@</span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Email" aria-label="Email"
+                        aria-describedby="basic-addon1">
+                </div>
+
+                <!-- PASSWORD INPUT -->
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="basic-addon1">Password</span>
+                    </div>
+                    <input type="password" class="form-control" placeholder="Password" aria-label="Password"
+                        aria-describedby="basic-addon1">
+                </div>
+
+                <button type="button" class="btn btn-primary">Login</button>
+            </form>
+
+            <!-- LOGIN FORM -->
+            <form id="signUp" class="d-none">
+                <!-- FIRSTNAME INPUT -->
+                <div class="input-group my-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="basic-addon1">First name</span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="First name" aria-label="Fname" aria-describedby="basic-addon1">
+                </div>
+
+                <!-- LASTNAME INPUT -->
+                <div class="input-group my-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="basic-addon1">Last name</span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Last name" aria-label="Lname" aria-describedby="basic-addon1">
+                </div>
+
+                <!-- EMAIL INPUT -->
+                <div class="input-group my-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="basic-addon1">@</span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="basic-addon1">
+                </div>
+            
+                <!-- PASSWORD INPUT -->
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="basic-addon1">Password</span>
+                    </div>
+                    <input type="password" class="form-control" placeholder="Password" aria-label="Password"
+                        aria-describedby="basic-addon1">
+                </div>
+
+                <!-- REPEAT PASSWORD INPUT -->
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="basic-addon1">Repeat password</span>
+                    </div>
+                    <input type="password" class="form-control" placeholder="Repeat password" aria-label="RepeatPassword"
+                        aria-describedby="basic-addon1">
+                </div>
+
+                <button type="button" class="btn btn-primary">Sign Up</button>
+            </form>
+        </div>
+    </div>
 
     <!-- SECTION JUMBOTRON -->
     <section id="jumbotron">
@@ -602,5 +687,6 @@
     <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
     <script src="./src/js/nav.js"></script>
     <script src="./src/js/theme-color.js"></script>
+    <script src="./src/js/modal.js"></script>
 </body>
 </html>

@@ -11885,6 +11885,9 @@ header nav {
     color: #333333; }
   header nav .collapse form .btn {
     border: 1px solid #000; }
+@media only screen and (max-width: 768px) {
+  header .nav {
+    display: block; } }
 
 #jumbotron {
   background: #f3f3f3; }
@@ -11898,6 +11901,11 @@ header nav {
     font-size: 100px;
     color: #161616;
     font-weight: 700; }
+  @media only screen and (max-width: 768px) {
+    #jumbotron h2 {
+      font-size: 25px; }
+    #jumbotron h1 {
+      font-size: 50px; } }
 
 #cards h5 {
   margin-top: 23%; }
@@ -11972,6 +11980,13 @@ header nav {
   bottom: 110px; }
 #products .card:hover img {
   transform: scale(1.1); }
+@media only screen and (max-width: 768px) {
+  #products .card a h5 {
+    font-size: 15px; }
+  #products .card p {
+    font-size: 13px; }
+  #products .card:hover .buy-btns {
+    bottom: 105px; } }
 
 #learn {
   background: url("../../../public/images/cta-bg.jpg") no-repeat center center fixed;
@@ -11999,7 +12014,7 @@ header nav {
     position: absolute;
     left: 0;
     right: 0;
-    bottom: -66px;
+    bottom: 0;
     transition: 0.5s; }
     #products-slider .card .buy-btns .btn {
       width: 100%;
@@ -12045,7 +12060,7 @@ header nav {
   #products-slider .card:hover .buy-btns .card:hover img {
     transform: scale(1.1); }
 #products-slider .carousel-indicators {
-  z-index: 1; }
+  z-index: 100; }
   #products-slider .carousel-indicators li {
     width: 3px;
     height: 3px;
@@ -12082,6 +12097,9 @@ header nav {
   #services-cards .bg-primary button:hover {
     background: #eaeaea !important;
     border-color: #eaeaea !important; }
+@media only screen and (max-width: 768px) {
+  #services-cards .card {
+    padding: 85px 0; } }
 
 footer {
   background: #212121; }
@@ -12136,7 +12154,7 @@ footer {
 .connexion-modal {
   display: none;
   position: fixed;
-  z-index: 2;
+  z-index: 999;
   padding-top: 200px;
   left: 0;
   top: 0;

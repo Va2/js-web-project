@@ -5,6 +5,40 @@
 
     .card
         border: none
+        position: relative
+        overflow: hidden
+
+        img
+            transition: .5s
+    
+        .card-body
+            z-index: 1
+            background: #fff
+
+        .buy-btns
+            position: absolute
+            // height: 60px
+            left: 0
+            right: 0
+            bottom: -60px
+            transition: .5s
+            
+            .btn
+                width: 100%
+                border: none !important
+                border-radius: 0
+                color: #fff
+                height: 58px
+                font-family: $font-btn
+                font-size: 15px
+                font-weight: 100
+                // border-color: rgba(255, 255, 255, 0)
+
+            .btn-details
+                background: #050302
+
+            .btn-cart
+                background: rgba(187, 89, 81, .8)
 
         div.col-3.offset-1
             margin-top: 13px
@@ -37,3 +71,9 @@
                 color: #cacaca
                 margin-right: 5px
                 text-decoration: line-through
+
+    .card:hover .buy-btns
+        bottom: 110px
+    
+    .card:hover img
+        transform: scale(1.1)

@@ -13,15 +13,15 @@ const loginForm = document.getElementById('login');
 // Get the sign up form
 const signUpForm = document.getElementById('signUp');
 
-// When the user clicks the button, open the modal 
+// When the user clicks the connexion button it opens the modal 
 connexionBtn.addEventListener('click', () => {
     modal.style.display = 'block';
 })
 
 // When the user clicks on <span> (x), close the modal
-span.onclick = function () {
+span.addEventListener('click', () => {
     modal.style.display = 'none';
-}
+})
 
 // When the user clicks anywhere outside of the modal, close it
 window.addEventListener('click', (event) => {

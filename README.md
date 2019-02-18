@@ -82,3 +82,18 @@ Copyright 2020 | **GOODLAYERS** - All rights reserved
 ### JavaScript (ES6)
 - ToDoList project : [GitHub Repository](https://github.com/Va2/js-to-do-list)
 - JS web project : **emporium**
+
+### git
+- Make useful & clear commits
+- Know how to create branches and work on them
+- Use the .gitignore file
+
+### GitHub
+- Put your project on GitHub
+- Fill in the **README.md** file with the project explanation
+
+### Markdown
+- The README.md file on github must prove that the markdown is mastered _(by using various Markdown shortcuts)_
+
+### Emmet
+- To be able to show the use of Emmet

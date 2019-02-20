@@ -11868,26 +11868,35 @@ a.text-dark:hover, a.text-dark:focus {
   letter-spacing: 1px;
   padding: 19px 40px; }
 
-header .logo h1 {
-  font-family: "poppins-extra-bold", sans-serif;
-  font-size: 30px; }
-header nav {
-  background: #fff; }
-  header nav a.navbar-brand {
-    font-family: "poppins-extra-bold", sans-serif; }
-  header nav .collapse ul.nav a {
-    text-transform: uppercase;
-    font-family: "Poppins", sans-serif;
-    font-size: 13px;
-    font-weight: 400;
-    color: #878787; }
-  header nav .collapse ul.nav .active {
-    color: #333333; }
-  header nav .collapse form .btn {
-    border: 1px solid #000; }
-@media only screen and (max-width: 768px) {
-  header .nav {
-    display: block; } }
+header {
+  transition: 0.8s; }
+  header .logo h1 {
+    font-family: "poppins-extra-bold", sans-serif;
+    font-size: 30px; }
+  header #navbar {
+    transition: 0.8s;
+    z-index: 3;
+    position: sticky;
+    left: 0;
+    right: 0;
+    top: -92px; }
+  header nav {
+    background: #fff; }
+    header nav a.navbar-brand {
+      font-family: "poppins-extra-bold", sans-serif; }
+    header nav .collapse ul.nav a {
+      text-transform: uppercase;
+      font-family: "Poppins", sans-serif;
+      font-size: 13px;
+      font-weight: 400;
+      color: #878787; }
+    header nav .collapse ul.nav .active {
+      color: #333333; }
+    header nav .collapse form .btn {
+      border: 1px solid #000; }
+  @media only screen and (max-width: 768px) {
+    header .nav {
+      display: block; } }
 
 #jumbotron {
   background: #f3f3f3; }
